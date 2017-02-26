@@ -1,0 +1,58 @@
+/*GENERAL*/
+
+h3 { text-align: center;
+     margin: 0px 0px 20px 0px;
+     color:whitesmoke;
+     font-size: 2em;
+     display: block;
+     width: 100%;
+    
+     }
+
+#contacto{
+ width: 100%;
+ min-height: 400px;
+ padding: 20px 5px;
+ margin: 0 auto;
+ background-image: url(descarga.jpg);
+ background-size: 200% 100%;
+ 
+}
+
+#contacto form { width: 98%;
+                 padding: 10px 20px;
+                 margin: auto;
+                 background-color: bisque;
+                 background-color: rgba(0,0,0,.4);
+                 box-sizing: border-box;
+                 border-radius: 10px;
+       }
+input, textarea { width: 100%;
+                  margin-bottom: 20px;
+                  padding: 10px;
+                  box-sizing: border-box;
+                  font-size: 17px;
+                  border-bottom-right-radius: 10px;
+                  border:none;}
+
+textarea { min-height: 150px;
+           max-height: 220px;
+           max-width: 100%;}
+
+#boton { background-color: #ea46ca;
+         color: whitesmoke;
+         padding: 10px;
+        font-size: 1.5em;
+        cursor: pointer;}
+
+@media only screen and (min-width: 481px) {
+    
+ #contacto{
+            width: 400px;
+            margin: auto;}
+    
+    #contacto form { width: 80%;}
+    
+}
+
+
