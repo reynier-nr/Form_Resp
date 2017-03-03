@@ -7,10 +7,20 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <div id="contacto">
+    <div id="ayuda">
         
         <form action="enviar.php" method="post">
              <h3 class="tcontact"> ¿Como te ayudamos? </h3>
+             
+             <select name="quiero">
+                 <option selected>Rentar mi Casa</option>
+                 <option>Busco casa en renta </option>
+                 <option>Vender Casa u Oficina</option>
+                 <option>Comprar Casa</option>
+                 <option>Vender Terreno</option>
+                 <option>Comprar Terrenos</option>
+             </select>
+             
              <input type="text" name="nombre" placeholder="Nombre*" required>
              <input type="email" name="email"  value="" placeholder="Email*" required> 
              <input type="tel" name="Tel" placeholder="Teléfono (Opcional) 10 dígitos" pattern="[0-9]{10}"> 

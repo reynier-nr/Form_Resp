@@ -1,17 +1,15 @@
 /*GENERAL*/
 
-h3 { text-align: left;
-     margin: 0px 0px 30px 0px;
-    padding: 20px 0px 20px 0px;
-    
-     color:black;
-     font-size: 1.4em;
-     display: block;
-     width: 100%;
-    
+#ayuda form h3 { text-align: center;
+                 margin: 0px 0px 30px 0px;
+                 padding: 20px 0px 20px 0px;
+                 color:black;
+                 font-size: 1.4em;
+                 display: block;
+                 width: 100%;    
      }
 
-#contacto{
+#ayuda {
  width: 100%;
  min-height: 400px;
  padding: 20px 5px;
@@ -22,7 +20,7 @@ h3 { text-align: left;
  
 }
 
-#contacto form { width: 98%;
+#ayuda form { width: 98%;
                  padding: 10px 20px;
                  margin: auto;
                  background-color: transparent;
@@ -37,22 +35,35 @@ h3 { text-align: left;
                  
                  /*border-radius: 10px;*/
        }
-input, textarea { width: 100%;
-                  margin-bottom: 20px;
-                  padding: 10px;
-                  box-sizing: border-box;
-                  font-size: 17px;
-                  border-bottom-right-radius: 10px;
-                  border: 1px solid rgba(0, 0, 0, 0.4);
-                  
-                  
+#ayuda input, #ayuda textarea { width: 100%;
+                                margin-bottom: 20px;
+                                padding: 10px;
+                                box-sizing: border-box;
+                                font-size: 17px;
+                                border-bottom-right-radius: 10px;
+                                border: 1px solid rgba(0, 0, 0, 0.4);                 
                   }
+
+#ayuda select { background: transparent;
+                   border: 1px solid rgba(0, 0, 0, 0.4);
+                   font-size: 14px;
+                   height: 40px;
+                   padding: 5px;
+                   width: 100%;
+                   margin-bottom: 20px;
+}
+
+select:focus{ outline: none;}
+
+
+
+
 
 textarea { min-height: 150px;
            max-height: 220px;
            max-width: 100%;}
 
-#boton { background-color: #ea46ca;
+#boton { background-color: #B7669E;
          color: whitesmoke;
          padding: 10px;
         font-size: 1.5em;
@@ -60,11 +71,11 @@ textarea { min-height: 150px;
 
 @media only screen and (min-width: 481px) {
     
- #contacto{
+ #ayuda{
             width: 400px;
             margin: auto;}
     
-    #contacto form { width: 80%;}
+    #ayuda form { width: 80%;}
     
 }
 
